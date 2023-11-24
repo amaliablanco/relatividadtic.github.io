@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 { 
+   font-size: 2.5rem;
+   color: #fff; 
+}
+
+
+p {
+   font-size: 1rem;
+   margin: 10px 0;
+   line-height: 1.7em; 
+}
+
+a {
+   text-decoration: none;
+} 
+
+aside {
+    background-color: rgb(248, 231, 244);
+    float: right;
+    height: 815px;
+    width: 140px;
+    padding-left: 30px;
+}
+
+span {
+    color: rgb(255, 166, 183);
+}
+
+
+/* Classes */
+
+.container {
+    margin: auto;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.video-container {
+    position: relative;
+    overflow: hidden;
+    border-style: solid;
+    border-color: rgb(253, 191, 240);
+    border-width: 7px;
+    border-radius: 20px 10px;
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+
+.large {
+    font-size: 1.25rem;
+}
+
+.txt-pink-light {
+    color:rgb(255, 166, 183);
+}
+
+.txt-pink-dark {
+    color:rgb(255, 120, 147);
+}
+
+.txt-pink-red {
+    color:rgb(252, 87, 122);
+}
+
+.txt-red-light {
+    color:rgb(255, 43, 89);
+}
+
+.txt-red-dark {
+    color:rgb(253, 0, 55);
+}
+
+.display-1 {
+    font-size: 70px;
+    text-transform: uppercase; 
+}
+
+.btn {
+    font-size: 15px;
+    display: inline-block;
+    padding: 15px 50px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 30px;
+}
+
+.btn-light {
+    background: rgb(255, 120, 147);
+    border: 1px solid rgb(66, 61, 61);
+    color: #fff;
+    display: block;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.btn-outline {
+    border: 2px solid rgb(255, 166, 183);
+    display: block;
+    color: rgb(255, 166, 183);
+    text-align:center;
+    margin-bottom:20px;
+}
+
+
+/* Header */
+
+#mainheader {
+    height: 20vh;
+    padding-top: 25px;
+    background: linear-gradient( rgb(255, 212, 221) 80%, rgb(255, 166, 183) 20% );
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(255, 74, 120);
+    border-width: 3px;
+    border-radius: 20px 0px;
+}
+
+#conceptoheader {
+    height: 20vh;
+    padding-top: 25px;
+    background: linear-gradient( rgb(255, 166, 183) 80%, rgb(255, 120, 147) 20% ) ;
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(255, 74, 120);
+    border-width: 3px;
+    border-radius: 20px 0px;
+}
+
+
+#utilidadeheader {
+    height: 20vh;
+    padding-top: 25px; 
+    background: linear-gradient( rgb(255, 120, 147)80%, rgb(252, 87, 122) 20% ) ;
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(255, 74, 120);
+    border-width: 3px;
+    border-radius: 20px 0px;
+}
+
+
+#importanciaheader {
+    height: 20vh;
+    padding-top: 25px; 
+    background: linear-gradient(rgb(252, 87, 122) 80%,rgb(255, 43, 89) 20% ) ;
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(253, 0, 55);
+    border-width: 3px;
+    border-radius: 20px 0px;
+}
+
+
+#autorheader {
+    height: 20vh;
+    padding-top: 25px; 
+    background: linear-gradient( rgb(255, 43, 89) 80%, rgb(253, 0, 55) 20% ) ;
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(253, 0, 55);
+    border-width: 3px;
+    border-radius: 20px 0px;
+}
+
+#mainheader .logo,
+#conceptoheader .logo,
+#utilidadeheader .logo,
+#importanciaheader .logo,
+#autorheader .logo {
+    text-align: center;
+    font-size: 28px;
+    padding-top: 10px;
+}
+
+#mainheader .logo a,
+#conceptoheader .logo a,
+#utilidadeheader .logo a,
+#importanciaheader .logo a,
+#autorheader .logo a {
+    color: #fff;
+}
+
+
+/* Nav Bar */
+
+#mainnavbar {
+    overflow: auto;
+    text-align: center;
+    background: rgb(255, 120, 147);
+}
+
+#mainnavbar a,
+#conceptonavbar a,
+#utilidadenavbar a,
+#importancianavbar a,
+#autornavbar a {
+    color: #fff;
+}
+
+#conceptonavbar {
+    background: rgb(252, 87, 122) ;
+    overflow: auto;
+    text-align: center;
+}
+
+#utilidadenavbar {
+    background: rgb(255, 43, 89);
+    overflow: auto;
+    text-align: center;
+}
+
+#importancianavbar {
+    background:rgb(253, 0, 55);
+    overflow: auto;
+    text-align: center;
+}
+
+#autornavbar {
+    background:rgb(177, 0, 38);
+    overflow: auto;
+    text-align: center;
+}
+
+#mainnavbar ul,
+#conceptonavbar ul,
+#utilidadenavbar ul,
+#importancianavbar ul,
+#autornavbar ul {
+    list-style: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 30px;
+}
+
+#mainnavbar ul li,
+#conceptonavbar ul li,
+#utilidadenavbar ul li,
+#importancianavbar ul li,
+#autornavbar ul li {
+    float:left;
+    margin-top: 20px;
+} 
+
+#mainnavbar ul li a,
+#conceptonavbar ul li a,
+#utilidadenavbar ul li a,
+#importancianavbar ul li a,
+#autornavbar ul li a {
+    padding: 30px;
+}
+
+#mainnavbar ul li a:hover {
+    background: rgb(255, 166, 183);
+    color: #fff;
+}
+
+#conceptonavbar ul li a:hover,
+#conceptonavbar ul li a.current {
+    background: rgb(255, 120, 147);
+    color: #fff;
+}
+
+#utilidadenavbar ul li a:hover,
+#utilidadenavbar ul li a.current {
+    background: rgb(252, 87, 122);
+    color: #fff;
+}
+
+#importancianavbar ul li a:hover,
+#importancianavbar ul li a.current {
+    background: rgb(255, 43, 89);
+    color: #fff;
+}
+
+#autornavbar ul li a:hover,
+#autornavbar ul li a.current {
+    background:rgb(253, 0, 55);
+    color: #fff;
+}
+
+
+/* Showcase */
+
+#mainshowcase {
+    background: url(/img/incio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: right;
+    padding-top:  200px;
+    padding-bottom: 90px;
+    color: #fff;
+}
+
+#showcase-concepto {
+    background: url(/img/concepto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top:  100px;
+    padding-bottom: 100px;
+    color: #fff;
+}
+
+#showcase-utilidade {
+    background: url(/img/utilidade.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top:  100px;
+    padding-bottom: 100px;
+    color: #fff;
+}
+
+#showcase-importancia {
+    background: url(/img/importancia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top:  100px;
+    padding-bottom: 100px;
+    color: #fff;
+}
+
+#showcase-autor {
+    background: url(/img/autor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top:  100px;
+    padding-bottom: 100px;
+    color: #fff;
+}
+
+/*Pe Páxina*/
+
+address{
+    display: inline;
+    margin-inline-end: 20px;
+}
+
+
+#pepaxina{
+    text-align: center;
+    vertical-align:middle;
+    background-color: rgb(248, 231, 244) ;
+}
